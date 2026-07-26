@@ -1,0 +1,6 @@
+{
+  "name": "Narayani Garg Portfolio",
+  "description": "An interactive, scrapbooked, playful personal portfolio website for Narayani Garg with pastel colors, customized doodles, pixel art cursor with Tinkerbell magic sparkle, timeline resume, writing space, and an interactive word game.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
