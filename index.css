@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --bg-cream: #f9f1db;
+  --pink-accent: #f7c9d4;
+  --pink-btn: #ea9ab2;
+  --green-mid: #c8de9d;
+  --green-light: #e0eea3;
+  --text-dark: #4a4a4a;
+}
+
+/* Custom Pixel Cursors */
+html,
+body,
+* {
+  cursor: url("/cursor.svg") 2 2, auto;
+}
+
+/* Custom Pointer Cursors for all clickable elements */
+a,
+button,
+input[type="button"],
+input[type="submit"],
+label,
+select,
+[role="button"],
+.clickable,
+[onclick] {
+  cursor: url("/pointer.svg") 8 2, pointer !important;
+}
+
+/* Override all Tailwind cursor-none classes to use our gorgeous new cursors */
+.cursor-none,
+[class*="cursor-none"] {
+  cursor: inherit !important;
+}
+
+/* If a clickable element has cursor-none, force it to use the custom pointer */
+a.cursor-none,
+button.cursor-none,
+.cursor-none a,
+.cursor-none button,
+.cursor-none [role="button"],
+.cursor-none .clickable {
+  cursor: url("/pointer.svg") 8 2, pointer !important;
+}
