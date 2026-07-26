@@ -45,7 +45,7 @@ export default function AboutMe() {
                 <img
                   src={`${import.meta.env.BASE_URL}me_photo.jpg`}
                   alt="Narayani Garg"
-                  className="w-full h-full object-cover"git add .
+                  className="w-full h-full object-cover"
                 />
               )}
             </div>
