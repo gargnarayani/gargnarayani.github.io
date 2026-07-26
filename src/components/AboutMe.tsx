@@ -47,7 +47,7 @@ export default function AboutMe() {
                   alt="Narayani Garg"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
-                  onError={() => setImageError(true)}
+                 onError={() => setImageError(true)}
                 />
               )}
             </div>
