@@ -33,144 +33,105 @@ export const SECRET_WORDS = ["FOCUS", "SKILL", "EAGER", "DRIVE", "DREAM", "LOYAL
 export const PROJECTS_DATA: Project[] = [
   {
     id: 1,
-    title: "Embedded Edge AI System",
-    description: "Developing microcontrollers with localized neural networks for real-time community assistance using local edge processing. Designed custom low-power wake-on-interrupt routines and efficient sensor inference pipelines.",
-    skills: ["AI", "C++", "RTOS", "Embedded Systems", "Hardware"],
+    title: "Terminal-Based C Dinosaur Game",
+    description: "Built an interactive terminal obstacle game in C featuring dynamic rendering, custom collision logic, and keyboard input handling across modular source files.",
+    skills: ["C", "Terminal Graphics", "Data Structures", "Embedded Principles"],
     link: "https://github.com/gargnarayani",
     linkText: "GitHub Repo →"
   },
   {
     id: 2,
+    title: "Embedded Edge AI System",
+    description: "Developing low-power microcontroller inference pipelines for edge hardware, focusing on local sensor processing and efficient wake routines.",
+    skills: ["Edge AI", "C++", "Embedded Systems", "Hardware"],
+    link: "https://github.com/gargnarayani",
+    linkText: "GitHub Repo →"
+  },
+  {
+    id: 3,
+    title: "Interactive Whimsical Portfolio",
+    description: "Designed and engineered a custom React, Next.js, and Tailwind CSS portfolio inspired by scrapbooks, featuring dynamic mini-games, dynamic assets, and smooth UI animations.",
+    skills: ["React", "TypeScript", "Tailwind CSS", "UI/UX Design"],
+    link: "https://github.com/gargnarayani/portfolio",
+    linkText: "Live Site →"
+  },
+  {
+    id: 4,
     title: "Autonomous Solar Irrigation Network",
-    description: "An IoT-enabled mesh network of soil sensors and solar valve controllers optimized for high efficiency. Utilizes predictive climate modeling to conserve water in community gardens while monitoring battery chemistry.",
-    skills: ["IoT", "Firmware", "Hardware", "Solar Tech", "Business Strategy"],
+    description: "An IoT mesh network of soil sensors and solar valve controllers utilizing predictive environmental modeling for water efficiency in community gardens.",
+    skills: ["IoT", "Firmware", "Hardware", "Solar Tech"],
     link: "https://github.com/gargnarayani",
     linkText: "Project Page →"
   },
   {
-    id: 3,
-    title: "Quantum Mechanics Collision Simulator",
-    description: "Built a mathematical simulation engine from scratch in C++ modeling 2D elastic particle collisions and wave-particle distribution vectors. Designed a high-performance custom canvas visualizer.",
-    skills: ["C++", "Physics", "Math Modelling", "Computer Graphics"],
-    link: "https://github.com/gargnarayani",
-    linkText: "View Simulation →"
-  },
-  {
-    id: 4,
+    id: 5,
     title: "Resilient Smart Grid Controller",
-    description: "A decentralized power controller balancing dual battery arrays and grid backup systems. Developed a sub-millisecond hardware switching logic to prevent voltage sag in critical microgrid nodes.",
-    skills: ["Electrical Engineering", "Control Theory", "Power Electronics", "Embedded Systems"],
+    description: "A decentralized power controller balancing dual battery arrays and grid backup systems with sub-millisecond hardware switching logic.",
+    skills: ["Electrical Engineering", "Control Systems", "Power Electronics"],
     link: "https://github.com/gargnarayani",
     linkText: "Research Paper →"
   },
   {
-    id: 5,
+    id: 6,
     title: "BLE Biomedical Wearable",
-    description: "Designed a ultra-low-power wearable tracker monitoring pulse oximetry, ECG waveforms, and active temperature. Transmits high-fidelity telemetry securely via Bluetooth Low Energy to an iOS client.",
-    skills: ["Biomedical Tech", "PCB Design", "BLE", "iOS Swift", "Hardware"],
+    description: "Designed a ultra-low-power wearable tracking pulse oximetry and telemetry, transmitting secure biological data over Bluetooth Low Energy.",
+    skills: ["Biomedical Tech", "PCB Design", "BLE", "Hardware"],
     link: "https://github.com/gargnarayani",
     linkText: "Hardware Design →"
-  },
-  {
-    id: 6,
-    title: "Mutual Aid Resource Portal",
-    description: "A secure web platform and integrated physical locker system allowing communities to share wellness supplies, food, and emergency items. Built custom embedded locking firmware connected to a Node.js API.",
-    skills: ["React", "TypeScript", "Node.js", "Firmware", "Community Tech"],
-    link: "https://github.com/gargnarayani",
-    linkText: "Devpost Entry →"
-  },
-  {
-    id: 7,
-    title: "Miniaturized Spectrum Analyzer",
-    description: "A handheld device that intercepts radio-frequency signals up to 2.4GHz. Interfaced a high-speed ADC with an STM32 microcontroller to execute Fast Fourier Transforms (FFT) and plot live spectrum curves.",
-    skills: ["STM32", "RF Engineering", "Signal Processing", "PCB Design", "Physics"],
-    link: "https://github.com/gargnarayani",
-    linkText: "Schematic Files →"
-  },
-  {
-    id: 8,
-    title: "Automated Wellness Tracker",
-    description: "A progressive web app that links philosophical resilience trackers with daily biofeedback parameters. Helps engineering students maintain cognitive wellness through structured micro-habits and stress mapping.",
-    skills: ["React", "PWA", "UI/UX Design", "Resilience Coaching", "Wellness Tech"],
-    link: "https://github.com/gargnarayani",
-    linkText: "Live Application →"
-  },
-  {
-    id: 9,
-    title: "Eco-Acoustic Forest Monitor",
-    description: "Deployed multi-node solar-powered audio recording stations that use lightweight Convolutional Neural Networks on the edge to detect chainsaw and logging noises, sending real-time warnings via LoRaWAN.",
-    skills: ["Edge AI", "LoRaWAN", "Hardware Design", "Conservation Tech"],
-    link: "https://github.com/gargnarayani",
-    linkText: "GitHub Code →"
-  },
-  {
-    id: 10,
-    title: "Haptic Actuator Braille Reader",
-    description: "A tactile display using small solenoid-driven pins to dynamically render text into physical braille formats. Leveraged custom shift registers to drive the high-voltage actuator arrays with an Arduino.",
-    skills: ["Solenoids", "Arduino", "Shift Registers", "Accessibility", "Mechanical Systems"],
-    link: "https://github.com/gargnarayani",
-    linkText: "View Prototype →"
   }
 ];
 
 export const TIMELINE_DATA: TimelineEvent[] = [
   {
     id: 1,
-    title: "Student at NC State University",
-    subtitle: "Triple Major: CompE, EE, and Physics. Minor: Business Entrepreneurship",
-    date: "Raleigh, NC | 2022 - Present",
-    description: "Maintaining a rigorous multi-disciplinary syllabus. Active member in robotics and physics research, exploring quantum dynamics, solid-state electronics, and startup incubation frameworks."
+    title: "Computer Engineering Student",
+    subtitle: "North Carolina State University | Expected Graduation: May 2029",
+    date: "Raleigh, NC | 2025 - Present",
+    description: "Pursuing a B.S. in Computer Engineering with an intended dual focus/transition in Electrical Engineering, maintaining a 4.0 GPA. Passionate about bridging hardware circuit design, embedded systems, and full-stack software development."
   },
   {
     id: 2,
-    title: "AI Embedded Systems Researcher",
-    subtitle: "NC State Engineering Labs",
-    date: "Raleigh, NC | 2024 - Present",
-    description: "Optimizing neural networks to run locally on cortex-M microcontrollers. Re-engineered matrix multiplication blocks in assembly language, yielding a 35% speedup in inference latency for edge devices."
+    title: "Engineering Ambassador",
+    subtitle: "NCSU College of Engineering",
+    date: "Raleigh, NC | April 2026 - Present",
+    description: "Representing the College of Engineering by supporting prospective student recruitment, organizing campus events, and leading outreach initiatives."
   },
   {
     id: 3,
-    title: "Firmware and PCB Design Intern",
-    subtitle: "Charlotte Tech Solutions",
-    date: "Charlotte, NC | Summer 2023",
-    description: "Constructed four-layer printed circuit boards with high-speed digital paths and Bluetooth transceivers. Programmed robust state-machines in C to govern low-power sleep modes for battery nodes."
+    title: "Treasurer & Grand Challenge Scholar",
+    subtitle: "Grand Challenge Scholars Organization",
+    date: "Raleigh, NC | Aug 2025 - Present",
+    description: "Selected as a Grand Challenge Scholar addressing complex global engineering challenges; serving as Treasurer starting April 2026 to manage organizational finances and event budgets."
   },
   {
     id: 4,
-    title: "Community mutual aid software lead",
-    subtitle: "Raleigh Community Tech Coalition",
-    date: "Raleigh, NC | 2023",
-    description: "Architected a local web catalog enabling food pantry and wellness kit distribution. Synchronized simple offline-first storage to assist users with unreliable cellular connections."
-  },
-  {
-    id: 5,
-    title: "Early Foundations and Creative Endeavors",
-    subtitle: "Art, Music & Writing Focus",
-    date: "Charlotte, NC | 2020 - 2022",
-    description: "Born in India and raised outside Charlotte, NC, combining a rich multicultural background with technical interests. Dedicated time to writing short essays, learning classical piano, and experimenting with charcoal drawings."
+    title: "Historian",
+    subtitle: "Honors & Scholars Council",
+    date: "Raleigh, NC | Aug 2025 - Present",
+    description: "Documenting council events, managing digital media archives, and fostering student engagement across the honors engineering community."
   }
 ];
 
 export const WRITING_DATA: WritingItem[] = [
   {
     id: 1,
-    title: "The Resilience of Engineering & The Engineering of Resilience",
+    title: "Bridging the Gap Between Hardware and Software",
     date: "March 15, 2026",
-    excerpt: "Exploring the intersections of solid-state electronics, system reliability, and stoic philosophy in solving persistent community-scale problems.",
-    content: "When we write software for low-resource embedded processors, the most critical design constraint is not processing power—it is resilience. The device must recover from random brownouts, cosmic-ray bit flips, and sensor drift. In the same way, human resilience is an active system of loops, feedback, and error correction. By studying engineering, we learn how to design systems that fail gracefully, reload states, and continue serving their community. Philosophy provides the firmware; engineering provides the hardware."
+    excerpt: "Exploring how embedded systems, circuit design, and agentic AI converge to create resilient physical computing devices.",
+    content: "When we write software for low-resource processors, the most critical design constraint is hardware awareness. A software loop must respect register access times, power states, and signal noise. By combining circuit design with intelligent software, we create systems that are both computationally capable and physically resilient."
   },
   {
     id: 2,
-    title: "Scaling Community Impact through Decentralized Hardware",
+    title: "The Resilience of Systems & Stoic Philosophy",
     date: "November 3, 2025",
-    excerpt: "How low-power edge systems and LoRa mesh networks can serve communities at a scalable level beyond typical commercial workflows.",
-    content: "Too often, modern smart-city technology is designed for luxury, not survival. By deploying low-power microcontrollers equipped with local AI models, we can construct decentralized systems for microgrids, mutual aid locker management, and localized crop diagnosis. These technologies cost under thirty dollars but run continuously, powered by tiny solar panels. This is scalable social technology—democratized, durable, and highly accessible."
+    excerpt: "Intersections of system reliability, edge intelligence, and graceful degradation under hardware brownouts.",
+    content: "In low-power hardware systems, devices must gracefully handle brownouts, bit flips, and sensor noise without total system failure. Human resilience mirrors this architecture: designing feedback loops, failing safely, and continuing operation despite external environmental disruptions."
   },
   {
     id: 3,
-    title: "The Harmony of Physics, Electromagnetism, and Business",
+    title: "Democratizing Edge AI for Local Communities",
     date: "July 12, 2025",
-    excerpt: "Finding the shared resonance between physical vectors, solid-state charge propagation, and entrepreneurial resource allocation.",
-    content: "In physics, we look at the flow of current, forces, and entropy. In business, we examine the flow of capital, friction, and efficiency. By applying thermodynamic principles to entrepreneurial design, we can create business models that are highly sustainable, working with the existing social and physical forces rather than fighting against them. A successful startup is simply a low-friction conduit that converts latent human energy into positive community progress."
+    excerpt: "How low-power microcontrollers running localized neural networks can empower open-source community technology.",
+    content: "By deploying microcontrollers equipped with local AI models, we can construct decentralized networks for environmental monitoring, microgrid regulation, and resource distribution that run continuously off tiny solar panels without relying on heavy cloud infrastructure."
   }
 ];
