@@ -5,8 +5,6 @@
 
 import { useState } from "react";
 import { motion } from "motion/react";
-// @ts-ignore
-import meImage from "../assets/images/me_photo_1785030451373.jpg";
 
 export default function AboutMe() {
   const [imageError, setImageError] = useState(false);
@@ -41,11 +39,11 @@ export default function AboutMe() {
                     <path d="M72 15 L82 25 M85 14 L75 25" stroke="#c8de9d" strokeWidth="3" />
                     <circle cx="20" cy="18" r="3" fill="#e0eea3" />
                   </svg>
-                  <p className="font-['Gloria_Hallelujah'] text-xs text-neutral-400 mt-2">me.jpg</p>
+                  <p className="font-['Gloria_Hallelujah'] text-xs text-neutral-400 mt-2">me_photo.jpg</p>
                 </div>
               ) : (
                 <img
-                  src={meImage}
+                  src="/me_photo.jpg"
                   alt="Narayani Garg"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -64,7 +62,7 @@ export default function AboutMe() {
               Hello! I&apos;m Narayani
             </h2>
 
-            {/* Content paragraph blocks - Happy Monkey font, smaller size, snug spacing */}
+            {/* Content paragraph blocks */}
             <div className="font-['Happy_Monkey'] text-[#4a4a4a] text-sm sm:text-base leading-relaxed space-y-4">
               <p>
                 I am a student at <strong className="text-neutral-700">NC State University</strong> studying{" "}
