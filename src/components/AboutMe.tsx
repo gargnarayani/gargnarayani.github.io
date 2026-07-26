@@ -43,11 +43,9 @@ export default function AboutMe() {
                 </div>
               ) : (
                 <img
-                  src="/me_photo.jpg"
+                  src={`${import.meta.env.BASE_URL}me_photo.jpg`}
                   alt="Narayani Garg"
-                  className="w-full h-full object-cover"
-                  referrerPolicy="no-referrer"
-                 onError={() => setImageError(true)}
+                 className="w-full h-full object-cover"
                 />
               )}
             </div>
