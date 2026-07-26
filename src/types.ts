@@ -181,7 +181,7 @@ export const TIMELINE_DATA: TimelineEvent[] = [
   {
     id: 1,
     title: "Student at NC State University",
-    subtitle: "Triple Major: CompE, EE, and Physics. Minor: Business Entrepreneurship",
+    subtitle: "Double Major: CompE, EE. Minor: Business Entrepreneurship, and Physics",
     date: "Aug 2025 - Present | Raleigh, NC",
     description: "Maintaining a rigorous multi-disciplinary syllabus with a perfect academic record. Actively participating in campus leadership, engineering outreach, and professional growth initiatives while exploring quantum mechanics, advanced circuit design, and hardware-software systems."
   },
