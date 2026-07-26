@@ -70,7 +70,7 @@ export default function Journey() {
               </h4>
 
               {/* Event Description - Happy Monkey */}
-              <p className="font-['Happy_Monkey'] text-neutral-600 text-sm leading-relaxed">
+              <p className="font-['Happy_Monkey'] text-neutral-600 text-sm leading-relaxed whitespace-pre-line">
                 {event.description}
               </p>
             </motion.div>

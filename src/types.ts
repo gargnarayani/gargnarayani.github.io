@@ -99,8 +99,8 @@ export const PROJECTS_DATA: Project[] = [
     date: "Jan 2026 - May 2026",
     description: "Led the mathematical optimization of Adaptive Cruise Control (ACC) logic using R, balancing passenger safety (Time-to-Collision) with traffic flow stability across multiple velocity profiles. Developed a predictive, kinetic-energy-aware braking algorithm that increased braking gain by 15% for heavy vehicles and utilized coordinate-based spatial filtering to achieve a 100% collision-avoidance rate in simulations. Directed the engineering team to win 1st Place overall in the Engineering Design Day competition by designing a dual-state controller (Urban vs. Highway mode) that can shave 500 ms off sensor loop latency.",
     skills: ["R Language", "Mathematical Optimization", "Control Theory", "Kinetic Modelling", "Autonomous Vehicles"],
-    link: "/Optimizing_ACC_Poster.pdf",
-    linkText: "Download Poster Board (PDF) →",
+    link: "./Optimizing_ACC_Poster.pdf",
+    linkText: "Download Poster Board (PDF) →"
   },
   {
     id: 7,
@@ -109,7 +109,7 @@ export const PROJECTS_DATA: Project[] = [
     date: "July 2023 - February 2024",
     description: "Leveraged Python to architect, train, and implement LUCIA (LUng Cancer Identification Algorithm), a deep-learning 3D Convolutional Neural Network (CNN) ML and AI solution to detect lung tumor malignancy from 3D CT scans, achieving a 98.9% test accuracy through iterative optimization. Performed extensive DICOM preprocessing, spatial resampling to 1mm isometric resolution, and 3D connected-component lung segmentation filters to isolate region-of-interest air cavities, minimizing overfitting via transfer learning.",
     skills: ["Python", "3D CNN", "Deep Learning", "TensorFlow", "Medical Imaging", "DICOM"],
-    link: "/LUCIA_Research_Essay.pdf",
+    link: "./LUCIA_Research_Essay.pdf",
     linkText: "Download Research Essay (PDF) →"
   },
   {
@@ -119,7 +119,7 @@ export const PROJECTS_DATA: Project[] = [
     date: "Personal Research Paper",
     description: "Designed a novel carbon nanotube-based Geiger-Müller (CNT-GM) radiation counter utilizing helium ionization and laser micro-welding for advanced wearable, industrial, and environmental monitoring. The system integrated conductive cotton pathways into fabric substrates for wireless data transmission via lightweight microcontrollers, protected by durable ethylene-polyurethane encapsulation. Theoretical simulations validated the counter's adaptability, while a secondary multi-layered CNT-graphite model demonstrated robust radiation shielding for applications in extreme environments.",
     skills: ["Nanotechnology", "Biomedical Engineering", "CNT-GM", "Microcontrollers", "Hardware Design", "Theoretical Simulation"],
-    link: "/Geiger_Muller_Nanotech_Paper.pdf",
+    link: "./Geiger_Muller_Nanotech_Paper.pdf",
     linkText: "Download Research Paper (PDF) →"
   },
   {
@@ -129,7 +129,7 @@ export const PROJECTS_DATA: Project[] = [
     date: "Personal Project",
     description: "Developed \"CheerUp,\" a mental health application utilizing a RoBERTa natural language processing model to analyze user journal entries and deliver personalized, mood-boosting recommendations. The system processes text inputs to calculate positivity, negativity, and neutrality scores, establishing an overall sentiment polarity that triggers an adaptive action plan featuring tailored activities, affirmations, and cognitive exercises. Synthesizing research across systems software and behavioral sciences, the application achieved 100% accuracy during testing against literary benchmarks, outperforming baseline market alternatives.",
     skills: ["RoBERTa NLP", "Sentiment Analysis", "React", "Python", "Mental Health Tech", "Behavioral Science"],
-    link: "/CheerUp_Quadchart.pdf",
+    link: "./CheerUp_Quadchart.pdf",
     linkText: "Download Quadchart (PDF) →"
   },
   {
@@ -180,36 +180,85 @@ export const TIMELINE_DATA: TimelineEvent[] = [
     id: 1,
     title: "Student at NC State University",
     subtitle: "Triple Major: CompE, EE, and Physics. Minor: Business Entrepreneurship",
-    date: "Raleigh, NC | 2022 - Present",
-    description: "Maintaining a rigorous multi-disciplinary syllabus. Active member in robotics and physics research, exploring quantum dynamics, solid-state electronics, and startup incubation frameworks."
+    date: "Aug 2025 - Present | Raleigh, NC",
+    description: "Maintaining a rigorous multi-disciplinary syllabus with a perfect academic record. Actively participating in campus leadership, engineering outreach, and professional growth initiatives while exploring quantum mechanics, advanced circuit design, and hardware-software systems."
   },
   {
     id: 2,
-    title: "AI Embedded Systems Researcher",
-    subtitle: "NC State Engineering Labs",
-    date: "Raleigh, NC | 2024 - Present",
-    description: "Optimizing neural networks to run locally on cortex-M microcontrollers. Re-engineered matrix multiplication blocks in assembly language, yielding a 35% speedup in inference latency for edge devices."
+    title: "Internal Project Manager",
+    subtitle: "Society of Asian Scientists and Engineers",
+    date: "May 2026 - Present | Raleigh, NC",
+    description: "Directed cross-functional student teams to execute internal chapter initiatives, professional development workshops, and cultural events. Managed end-to-end event logistics, budget allocations, and resource scheduling for high-attendance campus programs. Collaborated with executive board members to align project milestones with the chapter's strategic growth goals."
   },
   {
     id: 3,
-    title: "Firmware and PCB Design Intern",
-    subtitle: "Charlotte Tech Solutions",
-    date: "Charlotte, NC | Summer 2023",
-    description: "Constructed four-layer printed circuit boards with high-speed digital paths and Bluetooth transceivers. Programmed robust state-machines in C to govern low-power sleep modes for battery nodes."
+    title: "Technical Team Lead & Developer (Atrium Health Internship)",
+    subtitle: "Stiegler EdTech",
+    date: "Apr 2026 – May 2026 | Charlotte, NC",
+    description: "Led a 5-member cross-functional engineering team to build 'Pearl,' an Augmented Reality (AR) medical training and virtual meeting tool utilizing Unity and C#. Accelerated project delivery using Agile methodologies and rapid iterations, designing the application to reduce clinician training overhead by an estimated 32%. Pitched the final product and led a live technical Q&A session for the Atrium Health Board of Directors, securing 1st place overall for project execution and presentation. Promoted to the internship via a competitive return offer after serving as President for a 90+ member Youth Technology Apprenticeship Cohort (YTAC), where our team secured 2nd place in business profits."
   },
   {
     id: 4,
-    title: "Community mutual aid software lead",
-    subtitle: "Raleigh Community Tech Coalition",
-    date: "Raleigh, NC | 2023",
-    description: "Architected a local web catalog enabling food pantry and wellness kit distribution. Synchronized simple offline-first storage to assist users with unreliable cellular connections."
+    title: "Engineering Ambassador",
+    subtitle: "NC State College of Engineering",
+    date: "Apr 2026 - Present | Raleigh, NC",
+    description: "Served as a College of Engineering ambassador at open houses, campus tours, and university events to support student recruitment and retention."
   },
   {
     id: 5,
-    title: "Early Foundations and Creative Endeavors",
-    subtitle: "Art, Music & Writing Focus",
-    date: "Charlotte, NC | 2020 - 2022",
-    description: "Born in India and raised outside Charlotte, NC, combining a rich multicultural background with technical interests. Dedicated time to writing short essays, learning classical piano, and experimenting with charcoal drawings."
+    title: "Treasurer & Appropriations Manager",
+    subtitle: "Grand Challenge Scholars Organization",
+    date: "Apr 2026 - Present | Raleigh, NC",
+    description: "Managed financial appropriations and authored funding proposals to secure capital from the Student Organization Office; developed digital budgeting tools to streamline receipt processing and audit organizational financial documentation."
+  },
+  {
+    id: 6,
+    title: "Historian",
+    subtitle: "Honors and Scholars Council",
+    date: "Aug 2025 - Present | Raleigh, NC",
+    description: "Led collaboration among council to design and deliver Honors events and resolving conflicts. Demonstrated creative leadership by aligning diverse perspectives."
+  },
+  {
+    id: 7,
+    title: "Grand Challenge Scholar",
+    subtitle: "National Academy of Engineering (NAE) Program",
+    date: "Aug 2025 - Present | Raleigh, NC",
+    description: "Engaging in the National Academy of Engineering (NAE) program to solve complex global challenges. Actively developing competencies across five core pillars: research, interdisciplinarity, entrepreneurship, global dimension, and service learning."
+  },
+  {
+    id: 8,
+    title: "Student Ambassador",
+    subtitle: "Society of Asian Scientists and Engineers",
+    date: "Aug 2025 - Jul 2026 | Raleigh, NC",
+    description: "Influenced E-Board and provided organizational direction by proposing ideas for engineering and cultural programming, increasing member participation. Collaborated with diverse teams to promote events and initiatives."
+  },
+  {
+    id: 9,
+    title: "Founder & Piano Instructor",
+    subtitle: "The Piano Prodigy School",
+    date: "Jun 2020 – Aug 2025 | Mooresville, NC",
+    description: "Founded and operated a private piano teaching business, maintaining a 100% student retention rate and achieving 150% growth through word-of-mouth client referrals. Created 25+ custom interactive piano games and physical practice exercises to adapt complex musical theory concepts to diverse student learning styles. Managed all client billing, scheduling, and progress tracking, demonstrating early entrepreneurial drive, self-motivation, and operational consistency."
+  },
+  {
+    id: 10,
+    title: "Certified Instructor & Administrative Assistant",
+    subtitle: "Kumon Learning Center",
+    date: "Jun 2024 – Aug 2025 (Summer Seasonal) | Mooresville, NC",
+    description: "Managed daily individual progress plans across all mathematics levels, improving homework submission accuracy and student retention rates by 16%. Automated classroom grading queues and coordinated floor operations to improve overall student learning satisfaction metrics by 18%."
+  },
+  {
+    id: 11,
+    title: "Executive & Social Media & Marketing Coordinator",
+    subtitle: "Mooresville Youth Council",
+    date: "Jul 2021 - May 2025 | Mooresville, NC",
+    description: "Partnered with the Executive council to ideate and execute service projects; Organized committee roles and subcommittee creation. Created By-Laws, documented and preserved council's activities and grants. Wrote all grant applications; Led 25+ events for the Town of Mooresville (i.e. Classic Christmas, Earth Day, 4th of July).\n\nBuilt Council’s official website; Solo organizer of the annual Dog Mayor election (including nominations, voting, and crowning event); Expanded Instagram 17-fold; Designed annual t-shirt (winning T-Shirt Design Award from the State Youth Council); 4x Gold Commitment Award (100+ hr/yr).\n\n• Lead: Glenwood Arboretum & Trail Project with the Town of Mooresville\nSpearheaded the creation of a commemorative trail with an arboretum and a butterfly bench at a local memorial park in memory of a Town of Mooresville Employee; Grant recipient; Co-Presented to the Board of Commissioners.\n\n• Lead: Little STEM Libraries with the Town of Mooresville\nSpearheaded the creation of 4 little libraries with STEM resources around the Town of Mooresville to increase STEM curiosity and literacy; Grant recipient; Presented to the Board of Commissioners and State Youth Council."
+  },
+  {
+    id: 12,
+    title: "IB Diploma Graduate (Summa Cum Laude)",
+    subtitle: "South Iredell High School",
+    date: "Aug 2021 – May 2025 | Statesville, NC",
+    description: "Successfully completed the rigorous IB Diploma Programme with high honors. Ranked in the top 1%. Graduated Summa Cum Laude. Activities and societies: Varsity Tennis Team, Science National Honor Society, Mu Alpha Theta (National Math Honor Society), and IB Student Ambassador."
   }
 ];
 
