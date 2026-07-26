@@ -17,13 +17,13 @@ export default function Writing() {
         My Writing
       </h2>
 
-      {/* Subtitle - Caveat */}
-      <p className="font-['Caveat'] text-center text-xl sm:text-2xl text-neutral-500 mb-12 select-none">
-        Thoughts on philosophy, technology, and resilience...
+      {/* Subtitle - Bubblegum Sans */}
+      <p className="font-['Bubblegum_Sans'] text-center text-xl sm:text-2xl text-neutral-500 mb-12 select-none">
+        More coming soon!
       </p>
 
       {/* Essays Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 max-w-xl mx-auto gap-6">
         {WRITING_DATA.map((essay, index) => (
           <motion.div
             key={essay.id}
@@ -49,14 +49,23 @@ export default function Writing() {
               </p>
             </div>
 
-            {/* Read Button */}
-            <div>
+            {/* Read & Download Buttons */}
+            <div className="flex flex-wrap items-center gap-4 mt-2">
               <button
                 onClick={() => setSelectedEssay(essay)}
-                className="font-['Caveat'] text-lg text-[#ea9ab2] hover:text-[#ffabbf] font-bold inline-flex items-center gap-1 cursor-none hover:underline"
+                className="font-['Caveat'] text-xl text-[#ea9ab2] hover:text-[#ffabbf] font-bold inline-flex items-center gap-1 cursor-none hover:underline"
               >
-                Read Essay →
+                Read Essay Online →
               </button>
+              {essay.link && (
+                <a
+                  href={essay.link}
+                  download="The_Private_Journals_of_Julian_Vane.pdf"
+                  className="font-['Caveat'] text-xl text-[#ea9ab2] hover:text-[#ffabbf] font-bold inline-flex items-center gap-1 cursor-none hover:underline"
+                >
+                  Download PDF →
+                </a>
+              )}
             </div>
           </motion.div>
         ))}
@@ -107,8 +116,17 @@ export default function Writing() {
               </div>
 
               {/* Footer signature accent */}
-              <div className="mt-8 pt-6 border-t border-neutral-100 flex justify-end">
-                <span className="font-['Sacramento'] text-3xl text-[#ea9ab2] select-none">
+              <div className="mt-8 pt-6 border-t border-dashed border-neutral-100 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+                {selectedEssay.link && (
+                  <a
+                    href={selectedEssay.link}
+                    download="The_Private_Journals_of_Julian_Vane.pdf"
+                    className="font-['Caveat'] text-xl text-[#ea9ab2] hover:text-[#ffabbf] font-bold inline-flex items-center gap-1 cursor-none hover:underline"
+                  >
+                    Download Essay PDF →
+                  </a>
+                )}
+                <span className="font-['Sacramento'] text-3xl text-[#ea9ab2] select-none ml-auto">
                   Narayani Garg
                 </span>
               </div>

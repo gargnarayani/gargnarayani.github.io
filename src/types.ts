@@ -21,6 +21,8 @@ export interface WritingItem {
   date: string;
   excerpt: string;
   content: string;
+  link?: string;
+  linkText?: string;
 }
 
 export interface TimelineEvent {
@@ -265,23 +267,11 @@ export const TIMELINE_DATA: TimelineEvent[] = [
 export const WRITING_DATA: WritingItem[] = [
   {
     id: 1,
-    title: "The Resilience of Engineering & The Engineering of Resilience",
-    date: "March 15, 2026",
-    excerpt: "Exploring the intersections of solid-state electronics, system reliability, and stoic philosophy in solving persistent community-scale problems.",
-    content: "When we write software for low-resource embedded processors, the most critical design constraint is not processing power—it is resilience. The device must recover from random brownouts, cosmic-ray bit flips, and sensor drift. In the same way, human resilience is an active system of loops, feedback, and error correction. By studying engineering, we learn how to design systems that fail gracefully, reload states, and continue serving their community. Philosophy provides the firmware; engineering provides the hardware."
-  },
-  {
-    id: 2,
-    title: "Scaling Community Impact through Decentralized Hardware",
-    date: "November 3, 2025",
-    excerpt: "How low-power edge systems and LoRa mesh networks can serve communities at a scalable level beyond typical commercial workflows.",
-    content: "Too often, modern smart-city technology is designed for luxury, not survival. By deploying low-power microcontrollers equipped with local AI models, we can construct decentralized systems for microgrids, mutual aid locker management, and localized crop diagnosis. These technologies cost under thirty dollars but run continuously, powered by tiny solar panels. This is scalable social technology—democratized, durable, and highly accessible."
-  },
-  {
-    id: 3,
-    title: "The Harmony of Physics, Electromagnetism, and Business",
-    date: "July 12, 2025",
-    excerpt: "Finding the shared resonance between physical vectors, solid-state charge propagation, and entrepreneurial resource allocation.",
-    content: "In physics, we look at the flow of current, forces, and entropy. In business, we examine the flow of capital, friction, and efficiency. By applying thermodynamic principles to entrepreneurial design, we can create business models that are highly sustainable, working with the existing social and physical forces rather than fighting against them. A successful startup is simply a low-friction conduit that converts latent human energy into positive community progress."
+    title: "The Private Journals of Julian Vane",
+    date: "Spring 2026",
+    excerpt: "HON 355: Honors Final Project. Developed for the interdisciplinary seminar 'Feelings of/from Technology: Analog Bodies in Digital Spaces'. A fictional short story examining automation and true humanity through Hannah Arendt's philosophical framework.",
+    content: "Automation was intended to offload work and labor to liberate the human capacity for action. However, as AI-simulated companionship and algorithmic decision-making encroach on these activities, does it reveal a preference for a frictionless existence over the true humanity Arendt defines as our need to reveal our unique selves through unexpected speech and deeds? My goal is to analyze how contemporary integration of automation goes beyond automating work and labor to take over human action as the unique, unpredictable, and communicative speech/deeds that define true human existence. Using Hannah Arendt’s framework of labor->work->action, this project will investigate the consequences of automating this highest form of human activity.\n\nMain question: Does the encroachment of automation into the realm of action (the distinctively human nature of spontaneous speech and deeds) reveal a desire to escape the inherent burdens of our nature, and if so, does delegating this agency to algorithms indicate a modern move towards the total surrender of our human essence or perhaps destroy the capacity for meaningful human life?\n\nThis project will be a fictional short story that will explore the question of what happens if we let machines do all the thinking and feeling for us and since these are the fundamental things that build human nature, are we as humans driving to escape the struggle of our own nature? I am using Hannah Arendt's three types of human activities: work (the making of long-lasting artifacts), labour (biological and emotional maintenance), and action (speaking and doing unique things) to show how we are slowly giving up our human nature to automation.",
+    link: "./The_Private_Journals_of_Julian_Vane.pdf",
+    linkText: "Download PDF of Julian Vane Journals"
   }
 ];
