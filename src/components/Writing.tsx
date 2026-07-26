@@ -55,7 +55,7 @@ export default function Writing() {
                 onClick={() => setSelectedEssay(essay)}
                 className="font-['Caveat'] text-xl text-[#ea9ab2] hover:text-[#ffabbf] font-bold inline-flex items-center gap-1 cursor-none hover:underline"
               >
-                Read Essay Online →
+                Read Overview →
               </button>
               {essay.link && (
                 <a
