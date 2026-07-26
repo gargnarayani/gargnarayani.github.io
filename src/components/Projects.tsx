@@ -26,13 +26,6 @@ export default function Projects() {
             className="flex flex-col justify-between bg-white border-3 border-[#c8de9d] hover:border-[#ea9ab2] rounded-2xl p-6 shadow-[4px_4px_0px_#c8de9d] hover:shadow-[4px_4px_0px_#ea9ab2] transition-all"
           >
             <div>
-              {/* Optional Location & Date for research projects */}
-              {(project.location || project.date) && (
-                <div className="flex justify-between items-center mb-2 font-['Happy_Monkey'] text-xs text-neutral-400">
-                  <span>{project.location}</span>
-                  <span>{project.date}</span>
-                </div>
-              )}
 
               {/* Project Title - Bubblegum Sans */}
               <h3 className="font-['Bubblegum_Sans'] text-xl sm:text-2xl text-neutral-700 mb-3 leading-snug">
