@@ -180,38 +180,38 @@ export const CERTIFICATIONS_DATA: Certification[] = [
 export const TIMELINE_DATA: TimelineEvent[] = [
   {
     id: 1,
-    title: "Student at NC State University",
-    subtitle: "Double Major: CompE, EE. Minor: Business Entrepreneurship, and Physics",
-    date: "Aug 2025 - Present | Raleigh, NC",
-    description: "Maintaining a rigorous multi-disciplinary syllabus with a perfect academic record. Actively participating in campus leadership, engineering outreach, and professional growth initiatives while exploring quantum mechanics, advanced circuit design, and hardware-software systems."
-  },
-  {
-    id: 2,
     title: "Internal Project Manager",
     subtitle: "Society of Asian Scientists and Engineers",
     date: "May 2026 - Present | Raleigh, NC",
     description: "Directed cross-functional student teams to execute internal chapter initiatives, professional development workshops, and cultural events. Managed end-to-end event logistics, budget allocations, and resource scheduling for high-attendance campus programs. Collaborated with executive board members to align project milestones with the chapter's strategic growth goals."
   },
   {
-    id: 3,
-    title: "Technical Team Lead & Developer (Atrium Health Internship)",
-    subtitle: "Stiegler EdTech",
-    date: "Apr 2026 – May 2026 | Charlotte, NC",
-    description: "Led a 5-member cross-functional engineering team to build 'Pearl,' an Augmented Reality (AR) medical training and virtual meeting tool utilizing Unity and C#. Accelerated project delivery using Agile methodologies and rapid iterations, designing the application to reduce clinician training overhead by an estimated 32%. Pitched the final product and led a live technical Q&A session for the Atrium Health Board of Directors, securing 1st place overall for project execution and presentation. Promoted to the internship via a competitive return offer after serving as President for a 90+ member Youth Technology Apprenticeship Cohort (YTAC), where our team secured 2nd place in business profits."
-  },
-  {
-    id: 4,
+    id: 2,
     title: "Engineering Ambassador",
     subtitle: "NC State College of Engineering",
     date: "Apr 2026 - Present | Raleigh, NC",
     description: "Served as a College of Engineering ambassador at open houses, campus tours, and university events to support student recruitment and retention."
   },
   {
-    id: 5,
+    id: 3,
     title: "Treasurer & Appropriations Manager",
     subtitle: "Grand Challenge Scholars Organization",
     date: "Apr 2026 - Present | Raleigh, NC",
     description: "Managed financial appropriations and authored funding proposals to secure capital from the Student Organization Office; developed digital budgeting tools to streamline receipt processing and audit organizational financial documentation."
+  },
+  {
+    id: 4,
+    title: "Technical Team Lead & Developer (Atrium Health Internship)",
+    subtitle: "Stiegler EdTech",
+    date: "Apr 2026 – May 2026 | Charlotte, NC",
+    description: "Led a 5-member cross-functional engineering team to build 'Pearl,' an Augmented Reality (AR) medical training and virtual meeting tool utilizing Unity and C#. Accelerated project delivery using Agile methodologies and rapid iterations, designing the application to reduce clinician training overhead by an estimated 32%. Pitched the final product and led a live technical Q&A session for the Atrium Health Board of Directors, securing 1st place overall for project execution and presentation. Promoted to the internship via a competitive return offer after serving as President for a 90+ member Youth Technology Apprenticeship Cohort (YTAC), where our team secured 2nd place in business profits."
+  },
+  {
+    id: 5,
+    title: "Student at NC State University",
+    subtitle: "Triple Major: CompE, EE, and Physics. Minor: Business Entrepreneurship",
+    date: "Aug 2025 - Present | Raleigh, NC",
+    description: "Maintaining a rigorous multi-disciplinary syllabus with a perfect academic record. Actively participating in campus leadership, engineering outreach, and professional growth initiatives while exploring quantum mechanics, advanced circuit design, and hardware-software systems."
   },
   {
     id: 6,
@@ -236,17 +236,17 @@ export const TIMELINE_DATA: TimelineEvent[] = [
   },
   {
     id: 9,
-    title: "Founder & Piano Instructor",
-    subtitle: "The Piano Prodigy School",
-    date: "Jun 2020 – Aug 2025 | Mooresville, NC",
-    description: "Founded and operated a private piano teaching business, maintaining a 100% student retention rate and achieving 150% growth through word-of-mouth client referrals. Created 25+ custom interactive piano games and physical practice exercises to adapt complex musical theory concepts to diverse student learning styles. Managed all client billing, scheduling, and progress tracking, demonstrating early entrepreneurial drive, self-motivation, and operational consistency."
-  },
-  {
-    id: 10,
     title: "Certified Instructor & Administrative Assistant",
     subtitle: "Kumon Learning Center",
     date: "Jun 2024 – Aug 2025 (Summer Seasonal) | Mooresville, NC",
     description: "Managed daily individual progress plans across all mathematics levels, improving homework submission accuracy and student retention rates by 16%. Automated classroom grading queues and coordinated floor operations to improve overall student learning satisfaction metrics by 18%."
+  },
+  {
+    id: 10,
+    title: "Founder & Piano Instructor",
+    subtitle: "The Piano Prodigy School",
+    date: "Jun 2020 – Aug 2025 | Mooresville, NC",
+    description: "Founded and operated a private piano teaching business, maintaining a 100% student retention rate and achieving 150% growth through word-of-mouth client referrals. Created 25+ custom interactive piano games and physical practice exercises to adapt complex musical theory concepts to diverse student learning styles. Managed all client billing, scheduling, and progress tracking, demonstrating early entrepreneurial drive, self-motivation, and operational consistency."
   },
   {
     id: 11,

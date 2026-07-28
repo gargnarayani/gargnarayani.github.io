@@ -4,31 +4,9 @@
  */
 
 import { motion } from "motion/react";
-import { TIMELINE_DATA, TimelineEvent } from "../types";
+import { TIMELINE_DATA } from "../types";
 
 export default function Journey() {
-  // Helper function to convert start dates (e.g., "Jun 2020", "Aug 2021", "Apr 2026") into numeric timestamps
-  const parseStartDate = (dateStr: string): number => {
-    const monthMap: Record<string, number> = {
-      jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
-      jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11
-    };
-
-    const match = dateStr.match(/([a-zA-Z]{3})?\s*(\d{4})/);
-    if (!match) return 0;
-
-    const monthStr = match[1] ? match[1].toLowerCase() : "jan";
-    const year = parseInt(match[2], 10);
-    const month = monthMap[monthStr] ?? 0;
-
-    return new Date(year, month).getTime();
-  };
-
-  // Sort events chronologically from oldest (Piano Prodigy School in 2020) to newest (2026)
-  const sortedTimelineData = [...TIMELINE_DATA].sort((a, b) => {
-    return parseStartDate(a.date) - parseStartDate(b.date);
-  });
-
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       {/* Title with generous spacing underneath */}
@@ -38,7 +16,7 @@ export default function Journey() {
 
       {/* Scrollable Timeline Stream */}
       <div className="relative border-l-4 border-dashed border-[#f7c9d4] pl-6 sm:pl-10 ml-4 sm:ml-8 space-y-12 pb-8">
-        {sortedTimelineData.map((event: TimelineEvent, index: number) => (
+        {TIMELINE_DATA.map((event, index) => (
           <motion.div
             key={event.id}
             initial={{ opacity: 0, x: index % 2 === 0 ? -35 : 35 }}
@@ -86,7 +64,7 @@ export default function Journey() {
                 {event.title}
               </h3>
 
-              {/* Event Subtitle - Happy Monkey */}
+              {/* Event Subtitle - Happy Monkey (italic or slightly muted) */}
               <h4 className="font-['Happy_Monkey'] text-sm text-neutral-500 font-semibold mt-0.5 mb-3">
                 {event.subtitle}
               </h4>
